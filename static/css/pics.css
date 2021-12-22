@@ -1,0 +1,24 @@
+img {
+  width: 30%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  opacity: 0.8;
+  flex-direction: row;
+}
+img:hover {
+  opacity: 1;
+  transition: 1s;
+  transform: scale(1.01);
+  box-shadow: 8px 6px 5px rgb(168, 161, 161);
+}
+h1 {
+  font-weight: 100;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-family: "Varela", sans-serif;
+}
+hr {
+  width: 80%;
+  margin-right: 20%;
+}
